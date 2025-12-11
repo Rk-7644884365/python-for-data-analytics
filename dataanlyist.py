@@ -84,6 +84,90 @@
 # print(45.67) # float output
 # print(True) # boolean output
 
+# a=10
+# print('a')
+# print(a)
+
+
+# oprator in python
+1# arithmetic oprator # + - * / % // **
+#comparision oprator # == != > < >= <=
+# assignment oprator # = += -= *= /= %= //= **=
+# logical oprator # and or not
+# bitwise oprator #& | ^ ~ << >>
+# membership oprator # in not in
+# identity oprator # is is not
+
+
+# ArithmeticError
+#addition oprator +
+# a=10
+# b=20
+# print(a+b)
+# print(a-b)  # subtraction oprator -
+# print(a*b)# multiplication oprator *
+# print(a/b)# division oprator /
+# print(a%b)# modulus oprator % # remander
+# print(a//b)# floor division oprator // floor value
+# print(a**4)# exponentiation oprator **
+
+# comparision oprator /relational oprator
+# a=10
+# b=20
+# print(a==b) # equal to oprator
+# print(a!=b) # not equal to oprator
+# print(a>b) # greater than oprator
+# print(a<b) # less than oprator
+# print(a>=b) # greater than equal to oprator
+# print(a<=b) # less than equal to oprator\
+
+# assignment oprator
 a=10
-print('a')
-print(a)
+# print(a) # assignment oprator =
+# a+=1 # a=a+1
+# print(a)
+# a-=1 # a=a-1
+# print(a)
+# a*=2 # a=a*2
+# print(a)
+# a/=2 # a=a/2
+# print(a)
+# a%=3 # a=a%2
+# print(a)
+# a//=2 # a=a//2
+# print(a)
+# a**=2 # a=a**2
+# print(a)
+
+
+#logical operator
+# and 
+# T T=True
+# T F=False
+# F T=False
+# F F=False
+# a=10
+# b=20
+# print(a>5 and b>15) # True and True =True
+# print(a>5 and b<15) # True and False =False
+# print(a<5 and b>15)     # False and True =False
+# print(a<5 and b<15) # False and False =False
+
+# or
+# T T=True
+# T F=True
+# F T=True
+# F F=False
+# a=12
+# b=25
+# print(a>10 or b>20) # True or True =True
+# print(a>10 or b<20) # True or False =True
+# print(a<10 or b>20)    # False or True =True
+# print(a<10 or b<20) # False or False =False
+# 
+# not
+# T=False
+# F=True
+a=15
+print(not(a>10)) # not True =False
+print(not(a<10)) # not False =True
