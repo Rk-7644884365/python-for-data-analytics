@@ -90,7 +90,7 @@
 
 
 # oprator in python
-1# arithmetic oprator # + - * / % // **
+# arithmetic oprator # + - * / % // **
 #comparision oprator # == != > < >= <=
 # assignment oprator # = += -= *= /= %= //= **=
 # logical oprator # and or not
@@ -122,7 +122,7 @@
 # print(a<=b) # less than equal to oprator\
 
 # assignment oprator
-a=10
+# a=10
 # print(a) # assignment oprator =
 # a+=1 # a=a+1
 # print(a)
@@ -168,6 +168,44 @@ a=10
 # not
 # T=False
 # F=True
-a=15
-print(not(a>10)) # not True =False
-print(not(a<10)) # not False =True
+# a=15
+# print(not(a>10)) # not True =False
+# print(not(a<10)) # not False =True
+
+
+# bitwise oprator
+# and =&
+# or =|
+# xor=^
+# not=~
+# left shift=<<
+# right shift=>>
+# a=10 # binary=1010
+# b=4  # binary=0100
+# print(a&b) # and oprator 0000=0
+# print(a|b) # or oprator 1110=14
+# print(a^b)# xor oprator 1110=14
+# print(~a) # not oprator -(n+1) =-11
+# print(a<<2) # left shift oprator 101000=40
+# print(a>>2) # right shift oprator 0010=2
+
+# membership oprator
+#in
+# a=[10,20,30,40,50]
+# print(20 in a) # True
+# print(60 in a) # False
+# not in
+# print(20 not in a) # False
+# print(60 not in a) # True
+
+# identity oprator
+#is
+# a='mohit'
+# print(a is 'mohit')
+# print(a is not 'mohit')
+
+
+# input function in python
+# input function is used to take input from user
+a=int(input('this is my first user input')) # input function always take input as string
+print(a)
