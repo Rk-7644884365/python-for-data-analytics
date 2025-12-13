@@ -207,5 +207,43 @@
 
 # input function in python
 # input function is used to take input from user
-a=int(input('this is my first user input')) # input function always take input as string
+# a=int(input('this is my first user input')) # input function always take input as string
+# print(a)
+
+# String 
+a='hello world'
 print(a)
+print(type(a))
+# string is buit in data type in python
+# string is a sequence of characters
+# string is immutable
+
+# ' ',"" it represent single line string
+# ''' ''' , """ """ it represent multi line string
+
+# a='hello' # single line string
+# b="asjdn" # single line string
+# c='''hskbdkjes
+# hdsjcnekds
+# fhsdoifhne
+# hrdoicn
+# ''' # multi line string
+# d="""kasbdk
+# dsnlejksn
+# idsn"""    # multi line string
+
+# a='hello world'
+# a[2]='x'    # string is immutable it can not be changed
+# print(a)
+
+# fuction in python
+# len # len function is used to find the length of string
+# a='hello world'
+# print(len(a))
+# count # count function is used to count the number of occurrences of a substring in a string
+# a='hello world'
+# print(a.count('o'))
+# find # find function is used to find the index of first occurrence of a substring in a string
+a='hello world'
+print(a.find('o'))
+print(a.rfind('l')) # rfind function is used to find the index of last occurrence of a substring in a string
