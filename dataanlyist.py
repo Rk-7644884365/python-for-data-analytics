@@ -211,9 +211,9 @@
 # print(a)
 
 # String 
-a='hello world'
-print(a)
-print(type(a))
+# a='hello world'
+# print(a)
+# print(type(a))
 # string is buit in data type in python
 # string is a sequence of characters
 # string is immutable
@@ -244,6 +244,45 @@ print(type(a))
 # a='hello world'
 # print(a.count('o'))
 # find # find function is used to find the index of first occurrence of a substring in a string
-a='hello world'
-print(a.find('o'))
-print(a.rfind('l')) # rfind function is used to find the index of last occurrence of a substring in a string
+# a='hello world'
+# print(a.find('o'))
+# print(a.rfind('l')) # rfind function is used to find the index of last occurrence of a substring in a string
+
+# all buit in data type are contable 
+# index
+# a='my name is ravi kumar'
+# forword indexing start with Zero 
+# and reversed start with -1
+# 
+# print(a.index('m')) # first occurance of m
+# print(a.rindex('m')) # last occurance of m
+
+# a="my name is ravi kumar"
+# print(a[3])
+# print(a[-1])
+
+# sclicing
+# using for finding the subset 
+# a="my name is ravi kumar"
+# print(len(a))
+# print(a[start:end:step]) 
+# print(a[3:7:1])
+# starting  defualt 0
+# ending defluat is len 
+
+# defualt step is 1
+# print(a[:8:2])
+# print(a[2::1])
+
+# print(a[2:5])
+
+########## reverse sciling
+a="my name is ravi kumar"
+# print(a[-1:-5:-1])
+# print(a[-5:-1:-1])
+# default reverse indexing -1
+# default statinng take -1
+# default ending take -(len of string +1 )
+print(a[::-1])
+
+
