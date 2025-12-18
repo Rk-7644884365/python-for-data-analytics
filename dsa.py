@@ -122,25 +122,28 @@
     # print("hello")
 
 
+# 
+# from time import sleep
+# from threading import Thread
+# class hi(Thread):
+    # def run(self):
+        # for i in range(10):
+            # print("hello")
+            # sleep(1)
+# class hello(Thread):
+    # def run(self):
+        # for i in range(6):
+            # print('my')
+            # sleep(1)
+# t1=hi()
+# t2=hello()
+# 
+# t1.start()
+# sleep(0.2)
+# t2.start()
+# 
+# t1.join()
+# t2.join()
+# 
 
-from time import sleep
-from threading import Thread
-class hi(Thread):
-    def run(self):
-        for i in range(10):
-            print("hello")
-            sleep(1)
-class hello(Thread):
-    def run(self):
-        for i in range(6):
-            print('my')
-            sleep(1)
-t1=hi()
-t2=hello()
-
-t1.start()
-sleep(0.2)
-t2.start()
-
-t1.join()
-t2.join()
+  

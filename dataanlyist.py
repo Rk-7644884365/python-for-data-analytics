@@ -277,12 +277,68 @@
 # print(a[2:5])
 
 ########## reverse sciling
-a="my name is ravi kumar"
+# a="my name is ravi kumar"
 # print(a[-1:-5:-1])
 # print(a[-5:-1:-1])
 # default reverse indexing -1
 # default statinng take -1
 # default ending take -(len of string +1 )
-print(a[::-1])
+# print(a[::-1])
+
+############# string 
+# string is inmutable in nature
+# a='ravi kumar'
+# a[2]='s'
+# print(a)
+
+# methods in string
+# concatination
+# a='ravi kumar'
+# a=a[0:2]+'s'+a[3:]
+# print(a)
 
 
+# method in string
+# upper() # upper function is used to convert lowercase to uppercase
+# lower() # lower function is used to convert uppercase to lowercase
+# title() # title function is used to convert first character of each word to uppercase
+# capitalize() # capitalize function is used to convert first character of string to uppercase
+# strip() # strip function is used to remove whitespace from both ends of string
+# lstrip() # lstrip function is used to remove whitespace from left end of string 
+# rstrip() # rstrip function is used to remove whitespace from right end of string
+# replace() # replace function is used to replace a substring with another substring in a string
+
+# a='hello worls   '
+# print(a.upper()) # HELLO WORLS
+# print(a.lower()) # hello worls
+# print(a.title()) # Hello Worls
+# print(a.capitalize()) # Hello worls
+# print(a.strip()) # hello worls
+# print(a.lstrip()) # hello worls
+# print(a.rstrip()) # hello worls
+# print(a.replace('l','x')) # hexxo worxs
+# print(a)
+
+
+# split() # split function is used to split a string into a list of substrings based on a delimiter
+#join() # join function is used to join a list of strings into a single string with a delimiter
+# a='hello world welcome to python programming'
+# print(a.split('-')) # ['hello world welcome to python programming']
+# b=['hello','world','welcome','to','python','programming']
+# print(''.join(b))
+
+#checking method
+# a='886kello'
+# print(a.islower())
+# print(a.isascii())
+# print(a.isalpha())
+# print(a.isalnum())
+# print(a.isdigit())
+# print(a.isspace())
+# print(a.istitle())
+
+# a='hello word'
+# b=a.encode('utf-32')
+# c=b.decode('utf-32')
+# print(b)
+# print(c)
