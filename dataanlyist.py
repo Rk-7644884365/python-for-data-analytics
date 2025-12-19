@@ -342,3 +342,62 @@
 # c=b.decode('utf-32')
 # print(b)
 # print(c)
+
+# string formating
+# calling the fuction in string using string formation
+
+# a=100
+# print(f'my age is {a}') mordern
+# print("abce (a)".format(a))
+# 
+
+# conditional sentences
+### condtional sentnces used for providing conditon
+# if else #elif 
+# a=int(input("enter the age:"))
+# if a<18:
+    # print("you are not eligible for driving licence")
+# else:
+    # print("you are eligible for driving licence")
+
+
+
+# age=int(input("enter your age:"))
+# if age <18:
+    # print("you are not eligible for voter card")
+# else:
+    # print("you are eligible for voter card")
+
+
+# age=int(input("enter your age:"))
+# if age <21:
+    # print("you are not elible for merrage")
+# else:
+    # print("you are elible for merrage")
+
+# 
+# age=int(input("enter your age"))
+# if age < 10:
+    # print("you are in child hood")
+# elif age <=20 and age>10:
+    # print("you are in adlonce")
+# elif age <=30 and  age>20:
+    # print("mid way")
+# else:
+    # print("abc")
+
+
+# nexted condition
+# condition inside condition
+gander=input("enter your gender")
+age=int(input("enter your age"))
+if gander =='male':
+    if age>=23:
+        print("you are elible for marriage")
+    else:
+        print("you are not elible for marriage")
+else:
+    if age>=21:
+        print("you are eligible for marrege")
+    else:
+        print("you are not elible for marriage")
